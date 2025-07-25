@@ -14,10 +14,30 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 300px;
+    max-height: 600px;
+
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
 
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
