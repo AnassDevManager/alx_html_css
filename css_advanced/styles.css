@@ -1,0 +1,175 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Montserrat', sans-serif;
+     color: #333;
+     line-height: 1.6;
+ }
+
+ header {
+     background: #0d0d1f;
+     color: white;
+     padding: 20px 40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ header nav a {
+     color: white;
+     margin-left: 20px;
+     text-decoration: none;
+     font-weight: 500;
+ }
+
+ .hero {
+     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://via.placeholder.com/1200x700') center/cover no-repeat;
+     color: white;
+     text-align: center;
+     padding: 100px 20px;
+ }
+
+ .hero h1 {
+     font-size: 3em;
+     margin-bottom: 20px;
+ }
+
+ .hero p {
+     font-size: 1.2em;
+     margin-bottom: 30px;
+ }
+
+ .btn-primary {
+     background: #e97fff;
+     border: none;
+     padding: 12px 24px;
+     color: white;
+     font-weight: bold;
+     border-radius: 25px;
+     cursor: pointer;
+ }
+
+ .profiles {
+     background: #0d0d1f;
+     color: white;
+     padding: 40px 20px;
+     text-align: center;
+ }
+
+ .profiles h2 {
+     margin-bottom: 30px;
+ }
+
+ .profile-cards {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 30px;
+ }
+
+ .profile {
+     text-align: center;
+     max-width: 180px;
+ }
+
+ .profile img {
+     width: 80px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+ }
+
+ .stats {
+     background: #d194fc;
+     color: #fff;
+     text-align: center;
+     padding: 60px 20px;
+ }
+
+ .testimonial {
+     margin-top: 20px;
+     font-style: italic;
+ }
+
+ .mentors {
+     background: white;
+     padding: 60px 20px;
+     text-align: center;
+ }
+
+ .mentor-grid {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 30px;
+ }
+
+ .mentor {
+     max-width: 200px;
+ }
+
+ .membership {
+     background: #0d0d1f;
+     color: white;
+     text-align: center;
+     padding: 60px 20px;
+ }
+
+ .membership-features {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 40px;
+     margin: 30px 0;
+ }
+
+ .faq {
+     background: #fff;
+     padding: 60px 20px;
+ }
+
+ .faq h2 {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ .faq-columns {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     flex-wrap: wrap;
+ }
+
+ .faq-col {
+     max-width: 300px;
+ }
+
+ footer {
+     background: #0d0d1f;
+     color: white;
+     text-align: center;
+     padding: 20px;
+ }
+
+ footer a {
+     color: #fff;
+     margin: 0 10px;
+ }
+
+ @media (max-width: 768px) {
+
+     .profile-cards,
+     .mentor-grid,
+     .membership-features,
+     .faq-columns {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .hero h1 {
+         font-size: 2em;
+     }
+ }
